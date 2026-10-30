@@ -602,6 +602,8 @@ type Config struct {
 
 	Mldsa65Key *mldsa.PrivateKey
 
+	RequireMlkem768 bool
+
 	LimitFallbackUpload   LimitFallback
 	LimitFallbackDownload LimitFallback
 	// [REALITY] SECTION END
